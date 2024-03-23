@@ -1,0 +1,61 @@
+.광고 {
+    width: 768px;
+    height: 784px;
+    border-radius: 5px;    
+    background-image: url('/public/image/광고화면.JPG');
+    background-size: contain;
+    
+}
+
+.직원호출버튼 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+}
+
+.직원호출버튼 button {
+    padding: 10px, 10px;
+    width: 120px;
+    height: 66px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F63C3C;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: -15px;
+    box-shadow: 0px 3px 6px;
+    cursor: pointer;
+
+}
+
+.가운데정렬 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+
+.포장매장버튼 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.포장매장버튼 button {
+    width: 256px;
+    height: 72px;
+    padding:10px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: #FEBF0F;
+    line-height: 0.55;
+    box-shadow: 0px 3px 6px;
+    cursor: pointer;
+}
+
+.포장매장버튼 button span small {
+    font-size: 20px;
+}
