@@ -21,7 +21,6 @@ function App() {
             <Route path='/' element={<Layout/>}>
               <Route path='home' element={<Home/>}/>
               <Route path='menu' element={<MainMenu/>}/>
-              <Route path='singlemenu' elemenet={<SingleMenu/>}/>
               <Route path='additional' element={<AdditionalMenu/>}/>
               <Route path='payment' element={<Payment/>}/>
               <Route path='settlement' element={<Settlement/>}/>

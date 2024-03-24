@@ -1,4 +1,4 @@
-import {Link, json} from 'react-router-dom';
+import { Link, Route, Switch } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SingleMenu from "./SingleMenu";
@@ -191,6 +191,7 @@ function MainMenu(){
                     
                     <button>음료</button>
                 </div>
+
                 <div className={style.메뉴보이는곳}>
                     {getMenu().map((menu, index) => (
                         <div className={`${style.상품} ${menu.empty ? style.비어있는상품 : ''}`}
@@ -206,17 +207,17 @@ function MainMenu(){
                             )}
                         </div>
                     ))}
-                <div className={style.페이지네이션}>
-                    {Array.from({ length: Math.ceil(menus.length / onePageSixMenus) }, (_, index) => (
-                        <button
-                            key={index}
-                            className={page === index + 1 ? style.버튼활성화 : style.페이지버튼}
-                            onClick={() => pageChange(index + 1)}
-                        >
-                            {index + 1}
-                        </button>
-                    ))}
-                </div>
+                    <div className={style.페이지네이션}>
+                        {Array.from({ length: Math.ceil(menus.length / onePageSixMenus) }, (_, index) => (
+                            <button
+                                key={index}
+                                className={page === index + 1 ? style.버튼활성화 : style.페이지버튼}
+                                onClick={() => pageChange(index + 1)}
+                            >
+                                {index + 1}
+                            </button>
+                        ))}
+                    </div>
                 </div>
 
             
