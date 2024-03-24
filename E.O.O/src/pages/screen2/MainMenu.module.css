@@ -1,0 +1,179 @@
+.선택메뉴 {
+    width: 768px;
+    height: 256px;
+}
+
+.갈색줄 {
+    height: 33px;
+    background: #3a0100;
+}
+
+.선택메뉴나옴 {
+    height: 180px;
+    background: #f3ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.선택메뉴창 {
+    width: 120px;
+    height: 140px;
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.선택메뉴창 img {
+    max-width: 80px;
+    max-height: 100px;
+}
+
+
+.내실돈 {
+    height: 43px;
+    background: #3a0100;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 550px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.메뉴전체칸 {
+    width: 768px;
+    height: 548px;
+    padding: 20px;
+    display: flex;
+}
+
+.메뉴카테고리 {
+    display: flex;
+    flex-direction: column;
+}
+
+.메뉴카테고리 button {
+    width: 86px;
+    height: 95px;
+    background: #f2dfdf;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 2px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.메뉴카테고리 button.선택된카테고리 {
+    background: #ffb800; 
+    color: #fff; 
+}
+
+.메뉴보이는곳 {
+    height: 485px;
+    width: 654px;
+    background: #f3ecec;
+    margin-left: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.상품 {
+    width: 170px;
+    height: 170px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.상품 img {
+    max-width: 70%;
+    max-height: 70%;
+    margin-bottom: 10px;
+}
+
+.비어있는상품 {
+    background: #f3ecec;
+    color: #f3ecec;
+}
+
+.페이지네이션 {
+    width: 654px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.페이지버튼 {
+    
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.버튼활성화 {
+    
+    margin-right: 5px;
+    border: 1px double #ccc;
+    border-radius: 50px;
+    background-color: #ffb800;
+    color: #ffb800;
+    cursor: pointer;
+}
+
+.카운트 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.카운트 button {
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.플러스 {
+    background-image: url('/public/image/더하기.png');
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+.마이너스 {
+    background-image: url('/public/image/빼기.png');
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}

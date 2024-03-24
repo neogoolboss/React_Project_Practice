@@ -8,6 +8,7 @@ import Finish from './pages/screen6/Finish';
 import Layout from './layouts/Layout';
 import style from './App.module.css';
 import EmployeeCall from './pages/screen7/EmployeeCall';
+import SingleMenu from './pages/screen2/SingleMenu';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/' element={<Layout/>}>
               <Route path='home' element={<Home/>}/>
               <Route path='menu' element={<MainMenu/>}/>
+              <Route path='singlemenu' elemenet={<SingleMenu/>}/>
               <Route path='additional' element={<AdditionalMenu/>}/>
               <Route path='payment' element={<Payment/>}/>
               <Route path='settlement' element={<Settlement/>}/>
